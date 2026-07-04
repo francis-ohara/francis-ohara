@@ -1,5 +1,5 @@
 <p align="center">
-  <a><img src="./assets/terminal.svg" alt="Terminal: francis o'hara aidoo, full-stack software engineer, CS @ Colby College '27, currently Platform AI @ Medidata, seeking 2027 SWE & data science roles" width="800" /></a>
+  <a href="#"><img src="./assets/terminal.svg" alt="Terminal: francis o'hara aidoo, full-stack software engineer, CS @ Colby College '27, currently Platform AI @ Medidata, seeking 2027 SWE & data science roles" width="800" /></a>
 </p>
 
 # Hi, I'm Francis 👋
@@ -35,8 +35,8 @@ I build full-stack software that makes AI useful, from frontend and backend to t
 ## GitHub stats
 
 <p align="center">
-  <a><img src="./assets/stats-card.svg" alt="Francis's GitHub stats" /></a>
-  <a><img src="./assets/langs-card.svg" alt="Most used languages" /></a>
+  <a href="#"><img src="./assets/stats-card.svg" alt="Francis's GitHub stats" /></a>
+  <a href="#"><img src="./assets/langs-card.svg" alt="Most used languages" /></a>
 </p>
 
 ## How to reach me
