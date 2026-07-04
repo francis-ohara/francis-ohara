@@ -35,14 +35,8 @@ I build full-stack software that makes AI useful, from frontend and backend to t
 ## GitHub stats
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=francis-ohara&show_icons=true&theme=github_dark&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=francis-ohara&show_icons=true&hide_border=true" height="165" alt="Francis's GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=francis-ohara&layout=compact&theme=github_dark&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francis-ohara&layout=compact&hide_border=true" height="165" alt="Most used languages" />
-  </picture>
+  <img src="./assets/stats-card.svg" alt="Francis's GitHub stats" />
+  <img src="./assets/langs-card.svg" alt="Most used languages" />
 </p>
 
 ## How to reach me
