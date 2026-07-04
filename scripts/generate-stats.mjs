@@ -7,7 +7,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const LOGIN = process.env.GH_LOGIN || "francis-ohara";
-const TOKEN = process.env.GITHUB_TOKEN;
+// GH_STATS_TOKEN (a PAT with repo read access) lets the language card count
+// private repos; the Actions GITHUB_TOKEN can only see public ones.
+const TOKEN = process.env.GH_STATS_TOKEN || process.env.GITHUB_TOKEN;
+const INCLUDE_PRIVATE = Boolean(process.env.GH_STATS_TOKEN);
 if (!TOKEN) {
   console.error("GITHUB_TOKEN is required");
   process.exit(1);
@@ -18,7 +21,7 @@ const ICONS = JSON.parse(fs.readFileSync(path.join(__dirname, "octicons.json"), 
 const OUT_DIR = path.join(__dirname, "..", "assets");
 
 const QUERY = `
-query ($login: String!) {
+query ($login: String!, $privacy: RepositoryPrivacy) {
   user(login: $login) {
     name
     followers { totalCount }
@@ -38,7 +41,7 @@ query ($login: String!) {
       first: 100
       ownerAffiliations: OWNER
       isFork: false
-      privacy: PUBLIC
+      privacy: $privacy
       orderBy: { field: STARGAZERS, direction: DESC }
     ) {
       nodes {
@@ -55,7 +58,10 @@ async function fetchStats() {
   const res = await fetch("https://api.github.com/graphql", {
     method: "POST",
     headers: { Authorization: `bearer ${TOKEN}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ query: QUERY, variables: { login: LOGIN } }),
+    body: JSON.stringify({
+      query: QUERY,
+      variables: { login: LOGIN, privacy: INCLUDE_PRIVATE ? null : "PUBLIC" },
+    }),
   });
   const json = await res.json();
   if (!res.ok || json.errors) throw new Error(JSON.stringify(json.errors ?? json));
@@ -204,7 +210,7 @@ const stats = statsCard({
 
 // Notebooks store outputs as file bytes and drown real code; exclude by default.
 const excluded = new Set(
-  (process.env.EXCLUDE_LANGS ?? "Jupyter Notebook").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean),
+  (process.env.EXCLUDE_LANGS ?? "Jupyter Notebook,CSS,SCSS").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean),
 );
 const totals = new Map();
 for (const repo of user.repositories.nodes) {

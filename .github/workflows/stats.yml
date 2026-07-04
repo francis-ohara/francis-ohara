@@ -18,6 +18,9 @@ jobs:
         run: node scripts/generate-stats.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional PAT with repo read access; when set, private repos count
+          # toward the language card (aggregates only, no repo names exposed).
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
 
       - name: Commit and push if changed
         run: |
