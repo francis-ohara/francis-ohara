@@ -121,13 +121,13 @@ function iconGroup(name, x, y) {
 }
 
 function statsCard({ name, rows, rank }) {
-  const W = 460, H = 226;
+  const W = 480, H = 226;
   const rowSvg = rows
     .map(([icon, label, value], i) => {
       const y = 84 + i * 25;
       return `${iconGroup(icon, 26, y - 12)}
   <text x="52" y="${y}" font-family="${C.mono}" font-size="13" fill="${C.label}">${esc(label)}:</text>
-  <text x="322" y="${y}" text-anchor="end" font-family="${C.mono}" font-size="13" font-weight="600" fill="${C.value}">${esc(value)}</text>`;
+  <text x="350" y="${y}" text-anchor="end" font-family="${C.mono}" font-size="13" font-weight="600" fill="${C.value}">${esc(value)}</text>`;
     })
     .join("\n");
 
@@ -139,7 +139,7 @@ function statsCard({ name, rows, rank }) {
 ${windowChrome(W, H, "$ ./stats.sh")}
   <text x="24" y="56" font-family="${C.mono}" font-size="15" font-weight="600" fill="${C.title}">${esc(name)}'s GitHub Stats</text>
 ${rowSvg}
-  <g transform="translate(390,131)">
+  <g transform="translate(410,131)">
     <circle r="${r}" fill="none" stroke="${C.ringTrack}" stroke-width="6"/>
     <circle r="${r}" fill="none" stroke="${C.title}" stroke-width="6" stroke-linecap="round"
       stroke-dasharray="${dash.toFixed(1)} ${circ.toFixed(1)}" transform="rotate(-90)"/>
@@ -204,7 +204,7 @@ const stats = statsCard({
     ["commits", `Total Commits (${year})`, fmt(commits)],
     ["prs", "Total PRs", fmt(user.pullRequests.totalCount)],
     ["issues", "Total Issues", fmt(user.issues.totalCount)],
-    ["contribs", "Contributed to (last year)", fmt(user.repositoriesContributedTo.totalCount)],
+    ["contribs", "Repos Collaborated On (Last Year)", fmt(user.repositoriesContributedTo.totalCount)],
   ],
 });
 
