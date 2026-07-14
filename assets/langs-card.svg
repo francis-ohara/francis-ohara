@@ -9,23 +9,23 @@
   <text x="24" y="56" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600" fill="#58a6ff">Most Used Languages</text>
   <clipPath id="bar"><rect x="24" y="72" width="292" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-  <rect x="24.0" y="72" width="105.1" height="10" fill="#3572A5"/>
-  <rect x="129.1" y="72" width="59.7" height="10" fill="#b07219"/>
-  <rect x="188.8" y="72" width="31.1" height="10" fill="#555555"/>
-  <rect x="219.9" y="72" width="29.5" height="10" fill="#3178c6"/>
-  <rect x="249.4" y="72" width="17.0" height="10" fill="#adb2cb"/>
-  <rect x="266.3" y="72" width="16.0" height="10" fill="#f1e05a"/>
+  <rect x="24.0" y="72" width="104.0" height="10" fill="#3572A5"/>
+  <rect x="128.0" y="72" width="58.7" height="10" fill="#b07219"/>
+  <rect x="186.7" y="72" width="32.4" height="10" fill="#3178c6"/>
+  <rect x="219.2" y="72" width="30.6" height="10" fill="#555555"/>
+  <rect x="249.7" y="72" width="16.7" height="10" fill="#adb2cb"/>
+  <rect x="266.4" y="72" width="16.1" height="10" fill="#f1e05a"/>
   </g>
   <circle cx="29" cy="108" r="5" fill="#3572A5"/>
-  <text x="41" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">Python <tspan fill="#9198a1">36.0%</tspan></text>
+  <text x="41" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">Python <tspan fill="#9198a1">35.6%</tspan></text>
   <circle cx="181" cy="108" r="5" fill="#b07219"/>
-  <text x="193" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">Java <tspan fill="#9198a1">20.4%</tspan></text>
-  <circle cx="29" cy="134" r="5" fill="#555555"/>
-  <text x="41" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">C <tspan fill="#9198a1">10.6%</tspan></text>
-  <circle cx="181" cy="134" r="5" fill="#3178c6"/>
-  <text x="193" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">TypeScript <tspan fill="#9198a1">10.1%</tspan></text>
+  <text x="193" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">Java <tspan fill="#9198a1">20.1%</tspan></text>
+  <circle cx="29" cy="134" r="5" fill="#3178c6"/>
+  <text x="41" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">TypeScript <tspan fill="#9198a1">11.1%</tspan></text>
+  <circle cx="181" cy="134" r="5" fill="#555555"/>
+  <text x="193" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">C <tspan fill="#9198a1">10.5%</tspan></text>
   <circle cx="29" cy="160" r="5" fill="#adb2cb"/>
-  <text x="41" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">VHDL <tspan fill="#9198a1">5.8%</tspan></text>
+  <text x="41" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">VHDL <tspan fill="#9198a1">5.7%</tspan></text>
   <circle cx="181" cy="160" r="5" fill="#f1e05a"/>
   <text x="193" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#c9d1d9">JavaScript <tspan fill="#9198a1">5.5%</tspan></text>
 </svg>
