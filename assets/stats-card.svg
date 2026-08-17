@@ -25,7 +25,7 @@
   <g transform="translate(410,131)">
     <circle r="40" fill="none" stroke="#21262d" stroke-width="6"/>
     <circle r="40" fill="none" stroke="#58a6ff" stroke-width="6" stroke-linecap="round"
-      stroke-dasharray="146.8 251.3" transform="rotate(-90)"/>
+      stroke-dasharray="146.7 251.3" transform="rotate(-90)"/>
     <text y="8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="22" font-weight="700" fill="#58a6ff">B+</text>
   </g>
 </svg>
