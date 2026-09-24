@@ -37,7 +37,7 @@ I build full-stack software that makes AI useful, from frontend and backend to t
 
 ## What I've shipped
 
-- **Terraform × Vertex AI (Google, 2025):** authored an [officially published Terraform resource](https://github.com/GoogleCloudPlatform/magic-modules/pull/14650) for deploying generative AI models from Model Garden. Public, documented, and in production for enterprises today.
+- **Terraform × Vertex AI (Google, 2025):** authored an [officially published Terraform resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/vertex_ai_endpoint_with_model_garden_deployment) for deploying generative AI models from Model Garden. [Documented](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-garden/use-models#deploy-terraform) and in production for enterprises today.
 - **Apache Beam CsvIO (Google, 2024):** built an Apache Beam transform capable of processing 3B+ CSV records an hour on Google Cloud Dataflow.
 - **StyleSyncs (co-founder):** AI-powered fashion virtual try-on platform with 100+ users and $9K raised.
 - **[Mule-Mart](https://github.com/Mule-Mart/Mule-Mart):** online marketplace for the Colby College community with AI-powered semantic search.
