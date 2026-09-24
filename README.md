@@ -1,14 +1,14 @@
 <p align="center">
-  <a href="#"><img src="./assets/terminal.svg" alt="Terminal: francis o'hara aidoo, full-stack software engineer, CS @ Colby College '27, currently Platform AI @ Medidata, seeking 2027 SWE & data science roles" width="800" /></a>
+  <a href="#"><img src="./assets/terminal.svg" alt="Terminal: francis o'hara aidoo, full-stack software engineer, CS @ Colby College '27, previously SWE intern @ Google (2024, 2025) and Platform AI @ Medidata (2026), seeking 2027 SWE roles" width="800" /></a>
 </p>
 
 # Hi, I'm Francis 👋
 
-I build full-stack software that makes AI useful, from frontend and backend to the pipelines underneath.
+I build full-stack software that makes AI useful, from frontend and backend to cloud infrastructure.
 
-- 🎓 CS @ Colby College '27, AI concentration
-- 🔭 Currently: Platform AI @ Medidata, building LLM pipelines with frontier models on Amazon Bedrock to extract structured data from clinical trial protocols
-- 🎯 Looking for **2027 new-grad SWE & data science roles**
+- 🎓 CS @ Colby College '27
+- 💼 Previously: SWE intern @ Google ('24, '25) · Platform AI @ Medidata ('26)
+- 🎯 Looking for **2027 new-grad SWE roles**
 - 🌐 More at [francisohara.com](https://francisohara.com)
 
 ## Tech I work with
@@ -37,10 +37,11 @@ I build full-stack software that makes AI useful, from frontend and backend to t
 
 ## What I've shipped
 
-- **Terraform × Vertex AI (Google, 2025):** authored an [officially published Terraform resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/vertex_ai_endpoint_with_model_garden_deployment) for deploying generative AI models from Model Garden. [Documented](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-garden/use-models#deploy-terraform) and in production for enterprises today.
+- **Terraform × Vertex AI (Google, 2025):** authored an [officially published Terraform resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/vertex_ai_endpoint_with_model_garden_deployment) for deploying generative AI models from Vertex AI Model Garden on Google Cloud Platform (GCP). [Documented](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-garden/use-models#deploy-terraform) and in production for enterprises today.
 - **Apache Beam CsvIO (Google, 2024):** built an Apache Beam transform capable of processing 3B+ CSV records an hour on Google Cloud Dataflow.
+- **Protocol Digitizer (Medidata, 2026):** built a vision-based LLM pipeline that extracts Schedule of Assessments tables, footnotes, and metadata from clinical trial protocols.
 - **StyleSyncs (co-founder):** AI-powered fashion virtual try-on platform with 100+ users and $9K raised.
-- **[Mule-Mart](https://github.com/Mule-Mart/Mule-Mart):** online marketplace for the Colby College community with AI-powered semantic search.
+- **[Mule-Mart](https://github.com/Mule-Mart/Mule-Mart):** online marketplace for the Colby College community with AI-powered semantic search features.
 
 ## GitHub stats
 
