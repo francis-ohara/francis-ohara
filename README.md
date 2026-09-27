@@ -55,6 +55,6 @@ I build full-stack software that makes AI useful, from frontend and backend to c
 <p>
   <a href="https://francisohara.com"><img src="https://img.shields.io/badge/francisohara.com-1a7f37?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxlbGxpcHNlIGN4PSIxMiIgY3k9IjEyIiByeD0iNCIgcnk9IjEwIi8+PHBhdGggZD0iTTIgMTJoMjBNNCA3aDE2TTQgMTdoMTYiLz48L3N2Zz4K&logoColor=white" alt="francisohara.com" /></a>
   <a href="https://linkedin.com/in/francis-ohara"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxjaXJjbGUgY3g9IjUiIGN5PSI0LjUiIHI9IjIuNSIvPjxyZWN0IHg9IjIuOCIgeT0iOC41IiB3aWR0aD0iNC40IiBoZWlnaHQ9IjEzIiByeD0iMC41Ii8+PHBhdGggZD0iTTkuNSA4LjVoNC4ydjEuOWMuNy0xLjMgMi4yLTIuMiA0LjItMi4yIDMuMyAwIDQuNiAyIDQuNiA1LjR2Ny45aC00LjR2LTdjMC0xLjctLjYtMi43LTItMi43LTEuNSAwLTIuMiAxLjEtMi4yIDIuN3Y3aC00LjR6Ii8+PC9zdmc+Cg==&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/francisoharadev"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://x.com/francisoharadev"><img src="https://img.shields.io/badge/X-555555?logo=x&logoColor=white" alt="X" /></a>
   <a href="mailto:franciskohara@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
