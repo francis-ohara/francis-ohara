@@ -52,4 +52,4 @@ I build full-stack software that makes AI useful, from frontend and backend to c
 
 ## How to reach me
 
-[francisohara.com](https://francisohara.com) · [LinkedIn](https://linkedin.com/in/francis-ohara) · [franciskohara@gmail.com](mailto:franciskohara@gmail.com)
+[francisohara.com](https://francisohara.com) · [LinkedIn](https://linkedin.com/in/francis-ohara) · [X](https://x.com/francisoharadev) · [franciskohara@gmail.com](mailto:franciskohara@gmail.com)
