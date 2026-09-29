@@ -40,7 +40,8 @@ I build full-stack software that makes AI useful, from frontend and backend to c
 - **Apache Beam CsvIO (Google, 2024):** built an Apache Beam transform capable of processing 3B+ CSV records an hour on Google Cloud Dataflow.
 - **Protocol Digitizer (Medidata, 2026):** built a vision-based LLM pipeline that extracts Schedule of Assessments tables, footnotes, and metadata from clinical trial protocols.
 - **StyleSyncs (co-founder):** AI-powered fashion virtual try-on platform with 100+ users and $9K raised.
-- **[Mule Mart](https://mulemart.com):** online marketplace for the Colby College community with AI-powered semantic search features.
+- **[Mule Mart](https://mulemart.com):** online marketplace for the Colby College community, with semantic search that ranks listings by meaning.
+- **[Sankofa Lab website](https://sankofalab.org):** website for a STEM education non-profit serving students in Africa; I'm the tech lead.
 
 ## GitHub stats
 
