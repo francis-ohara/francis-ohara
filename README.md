@@ -4,7 +4,7 @@
 
 # Hi, I'm Francis 👋
 
-I build full-stack software that makes AI useful, from frontend and backend to cloud infrastructure.
+I enjoy writing code to solve challenging problems, from frontend and backend to cloud infrastructure.
 
 - 🎓 CS @ Colby College '27
 - 💼 Previously: SWE intern @ Google ('24, '25) · Platform AI @ Medidata ('26)
