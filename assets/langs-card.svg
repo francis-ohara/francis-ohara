@@ -9,11 +9,11 @@
   <text x="24" y="56" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600" fill="#58a6ff">Most Used Languages</text>
   <clipPath id="bar"><rect x="24" y="72" width="292" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-  <rect x="24.0" y="72" width="102.2" height="10" fill="#3572A5"/>
-  <rect x="126.2" y="72" width="53.4" height="10" fill="#b07219"/>
+  <rect x="24.0" y="72" width="102.3" height="10" fill="#3572A5"/>
+  <rect x="126.3" y="72" width="53.4" height="10" fill="#b07219"/>
   <rect x="179.7" y="72" width="44.5" height="10" fill="#3178c6"/>
   <rect x="224.2" y="72" width="27.8" height="10" fill="#555555"/>
-  <rect x="252.0" y="72" width="15.4" height="10" fill="#f1e05a"/>
+  <rect x="252.0" y="72" width="15.3" height="10" fill="#f1e05a"/>
   <rect x="267.3" y="72" width="15.2" height="10" fill="#adb2cb"/>
   </g>
   <circle cx="29" cy="108" r="5" fill="#3572A5"/>
